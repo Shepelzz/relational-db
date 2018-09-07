@@ -1,13 +1,13 @@
 package lesson6.homework6_1;
 
-public class Order_Details {
+public class OrderDetails {
     private long OrderID;
     private Products product;
     private double UnitPrice = 0;
     private int Quantity = 0;
     private double Discount = 0;
 
-    public Order_Details(long orderID, Products product) {
+    public OrderDetails(long orderID, Products product) {
         OrderID = orderID;
         this.product = product;
     }
